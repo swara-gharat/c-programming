@@ -1,0 +1,30 @@
+              TO CHECK RELATION BETWEEN TWO NUMBERS BY USING RELATIONAL OPERATORS.
+
+*******************************************************************************/
+INPUT:
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    printf("enter the values of an and b\n");
+    scanf("%d %d",&a,&b);
+    if (a>b)
+    printf("%d is greater than %d\n",a,b);
+    else if (a<b)
+    printf("%d is less than %d\n",a,b);
+    if (a<=b)
+    printf("%d is less than or equal to %d\n",a,b);
+    else if(a>=b)
+    printf("%d is greater than or equal to %d\n",a,b);
+    if (a==b)
+    printf("%d is equal to %d\n",a,b);
+    else if(a!=b)
+    printf("%d is not equal to %d\n",a,b);
+    return 0;
+}
+OUTPUT:
+98787 73648
+98787 is greater than 73648
+98787 is greater than or equal to 73648
+98787 is not equal to 73648
