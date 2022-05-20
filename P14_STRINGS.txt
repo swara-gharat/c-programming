@@ -1,0 +1,16 @@
+INPUT:
+#include <stdio.h>
+
+int main()
+{
+     char strname[30];
+     printf("enter the string\n");
+     scanf("%[^\n]s",strname);
+    printf("the string is %s\n", strname);
+    return 0;
+}
+
+OUTPUT:
+enter the string
+hi this is swara
+the string is hi this is swara
